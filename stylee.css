@@ -1,0 +1,102 @@
+.continer{
+    width: 1200;
+    margin: auto;
+    padding: 0px,20px;
+    }
+
+body{
+    background:linear-gradient(80deg,#eed19c,rgba(221, 122, 65, 0.829)) ;
+   
+}
+.div1{
+    text-align: center;
+    margin-top:10% ;
+    font-size: 30px;
+}
+.div1 h1{
+    font-size: 80px;
+    background-color: aliceblue;
+    font-style:italic;
+   font-family: Kaushan Script;
+}
+#form{
+background-color: tan;
+height: 80px;
+width: 50%;
+line-height: 80px;
+margin-left:350px ;
+}
+#form .input{
+    width: 300px;
+    height: 25px;
+    border-radius:20px ;
+    outline: none;
+    border: none;
+}
+#form #button{
+    width:50px;
+    height: 30px;
+    border-radius:40%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(113, 166, 170);
+    margin-left: 70px ;
+}
+.items .NOTCOMP 
+,.items .COMP{
+    text-align: center;
+    background-color: rgb(179, 141, 91);
+    width: 30%;
+    margin-left:480px ;
+    margin-bottom:50px ;
+    height: 50px;
+    line-height: 50px;
+}
+.div1 .warn{
+    color: rgb(248, 239, 239);
+   display: none; 
+      background-color: rgb(218, 35, 35);
+      width: 20%;
+      padding:5px ;
+      margin: 10px;
+      margin-left:350px ;
+      border-radius:30px ;
+      text-align: center;
+}
+.task{
+    background-color:  rgb(113, 166, 170);
+    font-size: 30px;
+    list-style: none;
+    width: 50%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-left:320px ;
+    margin-bottom:20px ;
+    border-radius: 30px;
+}
+.clear
+, .check-complete{
+    float:right;
+    margin-right: 50px;
+    background-color:rgb(179, 141, 91) ;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top:20px
+}
+.task-content{
+margin-right: 100px;
+ 
+}
+.clear:hover{
+    background-color: red;
+}
+.check-complete:hover{
+    background-color:rgb(33, 221, 33);
+}
